@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Interfaces="clr-namespace:Wide.Interfaces"
+                    xmlns:conv="clr-namespace:Wide.Interfaces.Converters"
+                 
+                    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit">
+
+
+    <!--Toolbar image icon disabled style-->
+    <Style TargetType="{x:Type Image}" x:Key="toolbarImageStyle">
+        <Style.Triggers>
+            <DataTrigger
+                Binding="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}, AncestorLevel=1}, Path=IsEnabled}"
+                Value="False">
+                <Setter Property="Opacity" Value="0.50"></Setter>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+
+
+    <DataTemplate x:Key="separatorTemplate">
+        <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+    </DataTemplate>
+
+
+
+</ResourceDictionary>

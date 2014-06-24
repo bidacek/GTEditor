@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTEditor", "GTEditor\GTEditor.csproj", "{FDE2FF7A-86DD-4D12-BE2E-8D0B742414A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLib", "GraphLib\GraphLib.csproj", "{AB14E4A4-03CB-4191-B676-626BC6D4B678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{8ABF51DB-BE0B-4BA1-AA8C-9BD0F148975C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphView", "GraphView\GraphView.csproj", "{B9258D8C-5BFE-4A31-9018-DB61850FB144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNotifyFramework", "BetterNotifyFramework\EasyNotifyFramework.csproj", "{9C71A06D-070E-470F-B97E-FD99E9CB386D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahApps.Metro.NET45", "C:\Users\Bidak\Documents\GitHub\MahApps.Metro\MahApps.Metro\MahApps.Metro.NET45.csproj", "{942D11C4-29F5-46C4-8C14-4B976D56C637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wide", "C:\Users\Bidak\Documents\GitHub\Wide\Src\Wide\Wide.csproj", "{9F20F5EF-4F7E-4AE2-A462-4CD2256FB3FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDE2FF7A-86DD-4D12-BE2E-8D0B742414A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE2FF7A-86DD-4D12-BE2E-8D0B742414A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE2FF7A-86DD-4D12-BE2E-8D0B742414A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE2FF7A-86DD-4D12-BE2E-8D0B742414A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB14E4A4-03CB-4191-B676-626BC6D4B678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB14E4A4-03CB-4191-B676-626BC6D4B678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB14E4A4-03CB-4191-B676-626BC6D4B678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB14E4A4-03CB-4191-B676-626BC6D4B678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABF51DB-BE0B-4BA1-AA8C-9BD0F148975C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABF51DB-BE0B-4BA1-AA8C-9BD0F148975C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABF51DB-BE0B-4BA1-AA8C-9BD0F148975C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABF51DB-BE0B-4BA1-AA8C-9BD0F148975C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9258D8C-5BFE-4A31-9018-DB61850FB144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9258D8C-5BFE-4A31-9018-DB61850FB144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9258D8C-5BFE-4A31-9018-DB61850FB144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9258D8C-5BFE-4A31-9018-DB61850FB144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C71A06D-070E-470F-B97E-FD99E9CB386D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C71A06D-070E-470F-B97E-FD99E9CB386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C71A06D-070E-470F-B97E-FD99E9CB386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C71A06D-070E-470F-B97E-FD99E9CB386D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942D11C4-29F5-46C4-8C14-4B976D56C637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942D11C4-29F5-46C4-8C14-4B976D56C637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942D11C4-29F5-46C4-8C14-4B976D56C637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942D11C4-29F5-46C4-8C14-4B976D56C637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F20F5EF-4F7E-4AE2-A462-4CD2256FB3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F20F5EF-4F7E-4AE2-A462-4CD2256FB3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F20F5EF-4F7E-4AE2-A462-4CD2256FB3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F20F5EF-4F7E-4AE2-A462-4CD2256FB3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
