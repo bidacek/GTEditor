@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphView", "GraphView\GraphView.csproj", "{B9258D8C-5BFE-4A31-9018-DB61850FB144}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNotifyFramework", "BetterNotifyFramework\EasyNotifyFramework.csproj", "{9C71A06D-070E-470F-B97E-FD99E9CB386D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNotifyFramework", "EasyNotifyFramework\EasyNotifyFramework.csproj", "{9C71A06D-070E-470F-B97E-FD99E9CB386D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Licence", "Licence", "{4967F812-6CA6-425F-837C-09D0E806229F}"
 	ProjectSection(SolutionItems) = preProject

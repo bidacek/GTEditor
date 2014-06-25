@@ -44,7 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BetterNotifyFramework\EasyNotifyFramework.csproj">
+    <ProjectReference Include="..\EasyNotifyFramework\EasyNotifyFramework.csproj">
       <Project>{9c71a06d-070e-470f-b97e-fd99e9cb386d}</Project>
       <Name>EasyNotifyFramework</Name>
     </ProjectReference>

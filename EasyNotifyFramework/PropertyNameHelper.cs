@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -23,6 +24,7 @@ namespace EasyNotifyFramework
 		public static string GetPropertyName<ParrentClass>(Expression<Func<ParrentClass, object>> property)
 		{
 
+			Contract.Requires<ArgumentNullException>(property != null, "Property null");
 
 			var lambda = (LambdaExpression)property;
 			MemberExpression memberExpression;
@@ -47,6 +49,7 @@ namespace EasyNotifyFramework
 		public static string GetPropertyName<ParrentClass,ValueType>(Expression<Func<ParrentClass, ValueType>> property)
 		{
 
+			Contract.Requires<ArgumentNullException>(property != null, "Property null");
 
 			var lambda = (LambdaExpression)property;
 			MemberExpression memberExpression;

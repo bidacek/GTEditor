@@ -102,11 +102,11 @@ namespace EasyNotifyFramework
 
 
 
-		protected static PropertyNotifier CreateNotifier<PropertyType>(Expression<Func<ViewModel,PropertyType>> property)
+		protected static PropertyNotifier CreateNotifier<PropertyType>(Expression<Func<ViewModel,PropertyType>> property, params IEnumerable<PropertyNotifier>[] alsoRaise)
 		{
 			string name = PropertyNameHelper.GetPropertyName<ViewModel, PropertyType>(property);
-
-			PropertyNotifier returnVal = new NormalPropertyNotifier(name);
+			
+			PropertyNotifier returnVal = new ViewModelPropertyNotifier(name);
 
 			_cachedProperties.Add(name, returnVal);
 			
